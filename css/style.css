@@ -107,13 +107,14 @@ img {
   position: sticky;
   top: 0;
   z-index: 30;
-  background: rgba(4, 10, 20, 0.52);
-  transition: box-shadow 220ms ease, background 220ms ease;
-  will-change: background, box-shadow;
+  background: transparent;
+  transition: box-shadow 220ms ease, background 220ms ease, backdrop-filter 220ms ease;
+  will-change: background, box-shadow, backdrop-filter;
 }
 
 .site-header.scrolled {
   background: rgba(4, 10, 20, 0.78);
+  backdrop-filter: blur(14px);
   box-shadow: 0 10px 30px rgba(2, 8, 20, 0.18);
 }
 
@@ -528,7 +529,7 @@ li {
 }
 
 .system-card img {
-  width: min(100%, 15.5rem);
+  width: min(100%, 12.5rem);
   aspect-ratio: 1 / 1;
   height: auto;
   margin-bottom: 1.25rem;
@@ -627,6 +628,10 @@ li {
 .footer-bottom p {
   color: var(--muted);
   line-height: 1.7;
+}
+
+.footer-tagline {
+  font-size: 0.92rem;
 }
 
 .footer-grid a {
@@ -769,7 +774,7 @@ li {
   }
 
   .systems-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     align-items: start;
   }
 
