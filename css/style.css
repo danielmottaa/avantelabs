@@ -34,6 +34,7 @@ body {
     linear-gradient(180deg, #08111e 0%, #040915 52%, #02050d 100%);
   color: var(--text);
   min-height: 100vh;
+  cursor: default;
 }
 
 body.menu-open {
@@ -106,12 +107,14 @@ img {
   position: sticky;
   top: 0;
   z-index: 30;
-  transition: background-color 220ms ease, border-color 220ms ease;
+  background: rgba(4, 10, 20, 0.52);
+  transition: box-shadow 220ms ease, background 220ms ease;
+  will-change: background, box-shadow;
 }
 
 .site-header.scrolled {
-  background: rgba(4, 10, 20, 0.68);
-  border-bottom: 1px solid rgba(155, 196, 255, 0.12);
+  background: rgba(4, 10, 20, 0.78);
+  box-shadow: 0 10px 30px rgba(2, 8, 20, 0.18);
 }
 
 .navbar {
@@ -259,6 +262,19 @@ body.menu-open .nav-panel {
   letter-spacing: 0.18em;
   font-size: 0.76rem;
   font-weight: 800;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li {
+  cursor: default;
+  user-select: none;
 }
 
 .hero h1,
@@ -596,6 +612,7 @@ body.menu-open .nav-panel {
 
 .site-footer {
   padding: 1rem 0 2.4rem;
+  text-align: center;
 }
 
 .footer-grid {
@@ -603,6 +620,7 @@ body.menu-open .nav-panel {
   gap: 1.4rem;
   padding: 1.6rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
+  justify-items: center;
 }
 
 .footer-grid p,
@@ -619,6 +637,7 @@ body.menu-open .nav-panel {
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   padding-top: 1.1rem;
+  text-align: center;
 }
 
 .back-to-top {
