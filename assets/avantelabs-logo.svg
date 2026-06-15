@@ -1,0 +1,26 @@
+<svg width="720" height="220" viewBox="0 0 720 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="220" rx="40" fill="url(#bg)" fill-opacity="0"/>
+  <g transform="translate(18 22)">
+    <path d="M88 8L126 26L144 61L136 111L96 162L50 155L18 112L22 62L49 25L88 8Z" fill="url(#wolfCore)"/>
+    <path d="M92 32L117 44L125 71L111 98L86 111L62 101L50 73L58 45L92 32Z" fill="#07111F"/>
+    <path d="M73 55L89 65L82 83L65 83L57 69L73 55Z" fill="#4FD1FF"/>
+    <path d="M96 54L114 63L105 83L88 83L81 69L96 54Z" fill="#8A7DFF"/>
+    <path d="M62 117L87 103L109 117L92 136H72L62 117Z" fill="#5DFFCF"/>
+    <path d="M136 111L158 95L168 111L147 130L136 111Z" fill="#4FD1FF" fill-opacity="0.85"/>
+    <path d="M22 62L5 49L11 76L18 112L34 99L22 62Z" fill="#8A7DFF" fill-opacity="0.72"/>
+    <circle cx="102" cy="71" r="5" fill="#E9F3FF"/>
+  </g>
+  <text x="204" y="127" fill="#E9F3FF" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="82" font-weight="700" letter-spacing="-2">avantelabs</text>
+  <text x="204" y="163" fill="#9FB1C9" font-family="'Manrope', 'Segoe UI', sans-serif" font-size="21" font-weight="700" letter-spacing="3.2">TECNOLOGIA . PRODUTO . INOVAÇÃO</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4FD1FF"/>
+      <stop offset="1" stop-color="#8A7DFF"/>
+    </linearGradient>
+    <linearGradient id="wolfCore" x1="18" y1="8" x2="158" y2="162" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4FD1FF"/>
+      <stop offset="0.5" stop-color="#8A7DFF"/>
+      <stop offset="1" stop-color="#5DFFCF"/>
+    </linearGradient>
+  </defs>
+</svg>

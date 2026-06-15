@@ -1,0 +1,19 @@
+<svg width="560" height="200" viewBox="0 0 560 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="556" height="196" rx="34" fill="#0A1527"/>
+  <rect x="2" y="2" width="556" height="196" rx="34" stroke="url(#stroke)" stroke-width="4"/>
+  <circle cx="97" cy="100" r="54" fill="url(#mark)"/>
+  <path d="M83 88C83 80 89 74 97 74C105 74 111 80 111 88C111 95 107 100 100 105L97 107L94 105C87 100 83 95 83 88Z" fill="#07111F"/>
+  <path d="M73 122C79 111 89 105 97 105C105 105 115 111 121 122" stroke="#07111F" stroke-width="8" stroke-linecap="round"/>
+  <text x="188" y="100" fill="#E9F3FF" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="44" font-weight="700">Fidelizee</text>
+  <text x="188" y="136" fill="#9FB1C9" font-family="'Manrope', 'Segoe UI', sans-serif" font-size="18" font-weight="600" letter-spacing="2.3">RELACIONAMENTO DIGITAL COM CLIENTES</text>
+  <defs>
+    <linearGradient id="stroke" x1="40" y1="30" x2="520" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5DFFCF"/>
+      <stop offset="1" stop-color="#8A7DFF"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="43" y1="52" x2="151" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5DFFCF"/>
+      <stop offset="1" stop-color="#4FD1FF"/>
+    </linearGradient>
+  </defs>
+</svg>

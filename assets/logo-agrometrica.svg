@@ -1,0 +1,18 @@
+<svg width="560" height="200" viewBox="0 0 560 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="556" height="196" rx="34" fill="#0A1527"/>
+  <rect x="2" y="2" width="556" height="196" rx="34" stroke="url(#stroke)" stroke-width="4"/>
+  <path d="M94 49C64 49 40 72 40 101C40 132 64 154 94 154C105 154 116 151 125 144L152 158L146 128C153 120 158 111 158 101C158 72 133 49 94 49Z" fill="url(#mark)"/>
+  <path d="M84 76L98 104L118 85L134 123" stroke="#E9F3FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="188" y="100" fill="#E9F3FF" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="40" font-weight="700">AgroMetrica</text>
+  <text x="188" y="136" fill="#9FB1C9" font-family="'Manrope', 'Segoe UI', sans-serif" font-size="18" font-weight="600" letter-spacing="2.5">CONTROLE INTELIGENTE PARA O AGRO</text>
+  <defs>
+    <linearGradient id="stroke" x1="40" y1="30" x2="520" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4FD1FF"/>
+      <stop offset="1" stop-color="#5DFFCF"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="40" y1="49" x2="158" y2="154" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4FD1FF"/>
+      <stop offset="1" stop-color="#5DFFCF"/>
+    </linearGradient>
+  </defs>
+</svg>
